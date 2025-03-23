@@ -1,0 +1,12 @@
+body{
+  display: grid;
+  justify-content: center;
+  place-items: center;
+  text-align: center;
+  background-color: bisque;
+}
+p{
+  font-size:  3rem;
+  color: black;
+  text-transform: capitalize;
+}

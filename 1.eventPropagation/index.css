@@ -1,0 +1,26 @@
+section{
+         
+  box-sizing: border-box;
+  display: grid;
+  justify-content: center;
+  place-items: center;
+}
+
+div {
+border: 2px solid black;
+min-height:100px;
+min-width: 200px;
+padding: 2rem;
+background-color: antiquewhite;
+
+}
+
+#outer:hover{
+background-color: rgb(241, 10, 10);
+}
+#middle:hover{
+background-color: rgb(10, 241, 68);
+}
+#inner:hover{
+background-color: rgb(253, 1, 148);
+}

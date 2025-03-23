@@ -1,0 +1,27 @@
+/* CSS custom properties (variables)  */
+:root{
+  --container-bg-color:hsl(225, 100%, 99%);
+  --button-bg-color: rgb(88, 177, 236);
+  --button-font-color: rgb(255, 255, 255);
+  --button-hover-color: rgb(10, 104, 245); 
+ 
+  }
+  
+    body{
+      height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .heading{
+      text-align: center;
+      font-size: 3rem;
+    }
+    .btn{
+      font-size: 2rem;
+    }
+    .result{
+      font-size: 3rem;
+      text-transform: capitalize;
+      text-align: center;
+    }

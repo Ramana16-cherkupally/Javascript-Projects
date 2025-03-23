@@ -1,0 +1,47 @@
+body{
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-color: rgb(231, 224, 224);
+}
+.rectangle{
+  height: 20rem;
+  width: 22rem;
+  background-color: black;
+  transition:all 1s linear;
+  border-style:solid;
+  box-shadow: rgba(239, 247,87, 0.2) 0pc 8px 24px;
+}
+button{
+  padding: 1rem 3rem;
+  background-color: rgb(13, 13, 14);
+  color: rgb(195, 223, 36);
+  border-radius: 5rem;
+  margin-top: 0.6rem;
+  transition:all 0.2s linear;
+  font-size: 2rem;
+}
+button:hover{
+  background-color: rgb(121, 120, 110);
+}
+
+.addTrasitions1{
+  background-color: rgb(255, 230, 1);
+  border-radius: 50%;
+
+}
+.addTrasitions3{
+  translate: -30rem 0;
+  border-radius: 50%;
+}
+.addTrasitions4{
+  translate: 30rem 0;
+}
+.addTrasitions5{
+  translate: -30rem 0;
+}
+.addTrasitions6{
+  translate: 0rem 0;
+  border-radius: 0%;
+}
